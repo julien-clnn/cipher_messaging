@@ -1,0 +1,4 @@
+from functions.user_interaction import display_connexion_menu_in_console
+
+display_connexion_menu_in_console()
+
