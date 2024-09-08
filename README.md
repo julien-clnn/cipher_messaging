@@ -1,4 +1,4 @@
-# Encrypted Messaging using Asymmetric Encryption (RSA)
+# Encrypted Messaging using Asymetric Encryption (RSA)
 
 ## 1. What is the aim of the project?
 
