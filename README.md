@@ -58,7 +58,7 @@ A problem I encountered was displaying conversations if the message was encrypte
 - The project idea comes from a scholarly project in the Cryptography class at the University of Technology of Troyes.
 - To simplify user interaction, the program creates the keys with a seed composed of the SHA256 hash of the user's password. This means that the confidentiality of conversations is only based on the security of the [SHA256](https://en.wikipedia.org/wiki/SHA-2) algorithm, which is not as secure as RSA.
 - This is a learning project about cryptography, so it is not optimized to be used by many people. The program can only be launched locally.
-- Conversations between two users are only using the same private keys. So if one key is compromised, the entire conversation loses its confidentiality. A way to avoid this problem could be the use of [Key Derivation Function and Double Ratchet Algorithm](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm).
+- Conversations between two users are only using the same private keys. So if one key is compromised, the entire conversation loses its confidentiality. A way to avoid this problem could be the use of [Key Derivation Function and Double Ratchet Algorithm](https://en.wikipedia.org/wiki/Double_Ratchet_Algorithm), but it will be for the next version.
 
 ## 5. Collaborators
 
